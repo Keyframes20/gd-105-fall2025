@@ -1,1 +1,22 @@
+background(#ff00ff);
+size(700, 700);
+  
+PImage maki = loadImage("maki 2.0.png");
+image(maki, -250, -400);
 
+PImage cat = loadImage("maki.png");
+image(cat, 267, 110);
+
+PImage stray = loadImage("stray cat.png");
+image(stray, 0, 270);
+
+PImage street = loadImage("street cat.png");
+image(street, 0, -100);
+
+draw();
+
+saveFrame("maki.png");
+saveFrame("stray cat.png");
+saveFrame("street cat.png")
+
+ 
